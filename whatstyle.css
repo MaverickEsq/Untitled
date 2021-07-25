@@ -200,8 +200,10 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a {
-	padding: 0.4em;
+	padding: 0.6%;
 	color: #BBBBBB;
+	z-index: 1;
+	position: relative;
 }
 #menu ul li a:hover {
 	outline: none;
@@ -949,4 +951,10 @@ g:nth-child(odd) [class*="chart-color"] {
   background: #181b1f;
   overflow: auto;
   opacity: 95%;
+}
+
+select {
+	background-color: #181b1f;
+	color: #acacac;
+	border: none;
 }
