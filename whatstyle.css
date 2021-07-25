@@ -200,7 +200,7 @@ ul.thin li { margin:0px 0px; padding:0px; }
 }
 
 #menu ul li a {
-	padding: 1.1em 1.0%;
+	padding: 0.4em;
 	color: #BBBBBB;
 }
 #menu ul li a:hover {
@@ -859,4 +859,94 @@ ul + br + ul {
 .unread,
 .read {
   padding:0 0 0 30px !important;
+}
+
+text[class*="chart"] {
+	color: #69b6cb;
+	fill: #69b6cb;
+	fill-opacity: 85%
+}
+
+g:nth-child(even) [class*="chart-color"] {
+	stroke: #666;
+	opacity: 60%;
+}
+
+g:nth-child(odd) [class*="chart-color"] {
+	stroke: #c0c0c0;
+	opacity: 60%
+}
+
+.bar-segment {
+	fill: #69b6cb;
+	opacity: 80%;
+}
+
+.bar-value {
+	fill: #666;
+}
+
+[class*="chart-color"] {
+	stroke: #69b6cb;
+	opacity: 80%;
+}
+
+#userinfo_stats {
+	/*! padding-top:15px; */
+}
+
+#stats_leeching a {
+	visibility: hidden;
+	font-size: 0;
+	
+}
+
+#stats_leeching a:after {
+	content: "D";
+	visibility:visible;
+	font-size: 6.5pt;
+}
+
+#stats_seeding a {
+	visibility: hidden;
+	font-size: 0;
+	
+}
+
+#stats_seeding a:after {
+	content: "U";
+	visibility:visible;
+	font-size: 6.5pt;
+}
+
+#stats_required a {
+	visibility: hidden;
+	font-size: 0;
+	
+}
+
+#stats_required a:after {
+	content: "/";
+	visibility:visible;
+	font-size: 6.5pt;
+}
+
+#stats_required {
+	color: transparent;
+}
+
+.stat {
+	visbility:visible;
+	font-size:6.5pt;
+}
+
+.autocomplete-suggestion {
+	color:#666;
+}
+
+.autocomplete-suggestions {
+	margin-top: 5px;
+  background: #181b1f;
+  overflow: auto;
+  opacity: 95%;
 }

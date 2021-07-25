@@ -1,3 +1,3 @@
 # Untitled
 
-A spreadsheet for Gazelle trackers.
+A stylesheet for Gazelle trackers.
