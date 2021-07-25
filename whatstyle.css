@@ -961,4 +961,5 @@ select {
 
 form textarea, form input {
 	background-color: rgba(255,255,255,0.08);
+	color: #ccc;
 }
